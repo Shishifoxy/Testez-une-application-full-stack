@@ -2,6 +2,7 @@ package com.openclassrooms.starterjwt.controllers;
 
 
 import com.openclassrooms.starterjwt.dto.SessionDto;
+import com.openclassrooms.starterjwt.exception.NotFoundException;
 import com.openclassrooms.starterjwt.mapper.SessionMapper;
 import com.openclassrooms.starterjwt.models.Session;
 import com.openclassrooms.starterjwt.services.SessionService;
@@ -90,10 +91,11 @@ public class SessionController {
     public ResponseEntity<?> participate(@PathVariable("id") String id, @PathVariable("userId") String userId) {
         try {
             this.sessionService.participate(Long.parseLong(id), Long.parseLong(userId));
-
             return ResponseEntity.ok().build();
         } catch (NumberFormatException e) {
             return ResponseEntity.badRequest().build();
+        } catch (NotFoundException e) {
+            return ResponseEntity.status(404).body(e.getMessage());
         }
     }
 
@@ -101,10 +103,12 @@ public class SessionController {
     public ResponseEntity<?> noLongerParticipate(@PathVariable("id") String id, @PathVariable("userId") String userId) {
         try {
             this.sessionService.noLongerParticipate(Long.parseLong(id), Long.parseLong(userId));
-
             return ResponseEntity.ok().build();
         } catch (NumberFormatException e) {
             return ResponseEntity.badRequest().build();
+        } catch (NotFoundException e) {
+            return ResponseEntity.status(404).body(e.getMessage());
         }
     }
+
 }

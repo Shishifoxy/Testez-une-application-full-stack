@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class SpringBootSecurityJwtApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	void mainMethodRunsWithoutException() {
+		SpringBootSecurityJwtApplication.main(new String[] {});
 	}
 
 }
