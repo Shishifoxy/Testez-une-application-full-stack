@@ -122,7 +122,7 @@
       <recent name="com.openclassrooms.starterjwt.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.test ">
+  <component name="RunManager" selected="Spring Boot.SpringBootSecurityJwtApplication">
     <configuration name="SessionControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="yoga-app" />
       <extension name="coverage">
@@ -287,7 +287,7 @@
       <workItem from="1745484199380" duration="6077000" />
       <workItem from="1746118913591" duration="9154000" />
       <workItem from="1746132650742" duration="14626000" />
-      <workItem from="1746367767421" duration="2366000" />
+      <workItem from="1746367767421" duration="10098000" />
     </task>
     <servers />
   </component>

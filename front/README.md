@@ -51,16 +51,41 @@ npm run cypress:run
 
 ## Génération des rapports de couverture
 
-Un rapport de couverture Jest peut être généré automatiquement après les tests :
+### Couverture des tests Jest
+
 ```bash
 npm test -- --coverage
 ```
 
-Les résultats se trouvent dans le dossier `coverage/`.
+Les résultats se trouvent dans le dossier `coverage/jest/lcov-report/index.html`.
 
 Pour afficher le rapport dans le navigateur :
 ```bash
-npx http-server ./coverage -o
+npx http-server ./coverage/jest/lcov-report -o
+```
+
+### Couverture des tests Cypress
+
+1. Démarrer l'application Angular instrumentée pour la couverture :
+```bash
+npm run serve-coverage
+```
+
+2. Dans un autre terminal, exécuter les tests E2E avec collecte de couverture :
+```bash
+npm run e2e-ci
+```
+
+3. Générer le rapport HTML à partir des données collectées :
+```bash
+npm run e2e:coverage
+```
+
+Les résultats se trouvent dans `coverage/lcov-report/index.html`.
+
+Pour l’ouvrir dans un navigateur :
+```bash
+npx http-server ./coverage/lcov-report -o
 ```
 
 ## Objectif de couverture
