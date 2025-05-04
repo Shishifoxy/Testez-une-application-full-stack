@@ -10,7 +10,6 @@ describe("Création d'une session (compte admin)", () => {
 
     cy.location('pathname', { timeout: 10000 }).should('include', '/sessions');
 
-    // Aller sur la page de création
     cy.visit('/sessions/create');
 
     cy.get('form', { timeout: 10000 }).should('exist');
