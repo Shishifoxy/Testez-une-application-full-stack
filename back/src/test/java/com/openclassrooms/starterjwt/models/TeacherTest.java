@@ -28,8 +28,8 @@ public class TeacherTest {
     @Test
     public void testEqualsWithNullAndDifferentClass() {
         Teacher teacher = new Teacher();
-        assertNotEquals(teacher, null); // comparaison avec null
-        assertNotEquals(teacher, "some string"); // comparaison avec une autre classe
+        assertNotEquals(teacher, null);
+        assertNotEquals(teacher, "some string");
     }
 
     @Test

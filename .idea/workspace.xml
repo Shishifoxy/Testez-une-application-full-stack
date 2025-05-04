@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af592f9f-c179-4d9d-8e51-1859465b6cb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/front/cypress/e2e/access-control.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/cypress/e2e/delete-user.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/cypress/e2e/home.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/cypress/e2e/session-detail.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/cypress/e2e/session-list.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/cypress/support/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.cypress.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/back/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/test/java/com/openclassrooms/starterjwt/controllers/SessionControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/test/java/com/openclassrooms/starterjwt/controllers/SessionControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/test/java/com/openclassrooms/starterjwt/models/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/test/java/com/openclassrooms/starterjwt/models/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/test/java/com/openclassrooms/starterjwt/security/jwt/JwtUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/test/java/com/openclassrooms/starterjwt/security/jwt/JwtUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/test/java/com/openclassrooms/starterjwt/security/services/UserDetailsServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/test/java/com/openclassrooms/starterjwt/security/services/UserDetailsServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.nyc_output/out.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/cypress.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/cypress.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/cypress/support/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/cypress/support/e2e.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/cypress/support/e2e.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/me/me.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/components/me/me.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/features/sessions/components/detail/detail.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/features/sessions/components/detail/detail.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/features/sessions/components/form/form.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/features/sessions/components/form/form.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/features/sessions/services/session-api.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/features/sessions/services/session-api.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/services/session.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/services/session.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/postman/yoga.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/sql/script.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2uBGis4QqpkHR1YdftnBmeoijND" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "D:/Testez-une-application-full-stack/back/src/test/java",
+    "last_opened_file_path": "D:/Testez-une-application-full-stack/back/src/test/java/com/openclassrooms/starterjwt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/Testez-une-application-full-stack/front/node_modules/@angular/cli",
+    "nodejs_package_manager_path": "yarn",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "spring.configuration.checksum": "48c7d3105e9b95ef884cba92d9787064",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Testez-une-application-full-stack\back\src\test\java\com\openclassrooms\starterjwt" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Testez-une-application-full-stack\back" />
+      <recent name="D:\Testez-une-application-full-stack\front" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.openclassrooms.starterjwt.controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.test ">
+    <configuration name="SessionControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yoga-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openclassrooms.starterjwt.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openclassrooms.starterjwt.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.openclassrooms.starterjwt.controllers.SessionControllerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionControllerIntegrationTest.testFindGetAllSessions_shouldReturnResponseOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yoga-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openclassrooms.starterjwt.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openclassrooms.starterjwt.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.openclassrooms.starterjwt.controllers.SessionControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="testFindGetAllSessions_shouldReturnResponseOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionControllerIntegrationTest.testNoLongerPartecipateSession_shouldReturnResponseOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yoga-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openclassrooms.starterjwt.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openclassrooms.starterjwt.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.openclassrooms.starterjwt.controllers.SessionControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="testNoLongerPartecipateSession_shouldReturnResponseOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionControllerIntegrationTest.testPartecipateSession_UserDoesNotExist_shouldReturnResponseNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yoga-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openclassrooms.starterjwt.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openclassrooms.starterjwt.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.openclassrooms.starterjwt.controllers.SessionControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="testPartecipateSession_UserDoesNotExist_shouldReturnResponseNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Contrôle des accès admin" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/front/node_modules/@angular/cli" />
+      <working-dir value="$PROJECT_DIR$/front" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/front/cypress/e2e/access-control.cy.ts" />
+      <test-names>
+        <test-name value="Contrôle des accès admin" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Testez-une-application-full-stack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Testez-une-application-full-stack" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test " type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/back" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringBootSecurityJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="yoga-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.openclassrooms.starterjwt.SpringBootSecurityJwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Jest.Contrôle des accès admin" />
+      <item itemvalue="JUnit.SessionControllerIntegrationTest" />
+      <item itemvalue="JUnit.SessionControllerIntegrationTest.testFindGetAllSessions_shouldReturnResponseOk" />
+      <item itemvalue="JUnit.SessionControllerIntegrationTest.testNoLongerPartecipateSession_shouldReturnResponseOk" />
+      <item itemvalue="JUnit.SessionControllerIntegrationTest.testPartecipateSession_UserDoesNotExist_shouldReturnResponseNotFound" />
+      <item itemvalue="Maven.test " />
+      <item itemvalue="Spring Boot.SpringBootSecurityJwtApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Contrôle des accès admin" />
+        <item itemvalue="JUnit.SessionControllerIntegrationTest" />
+        <item itemvalue="JUnit.SessionControllerIntegrationTest.testNoLongerPartecipateSession_shouldReturnResponseOk" />
+        <item itemvalue="JUnit.SessionControllerIntegrationTest.testPartecipateSession_UserDoesNotExist_shouldReturnResponseNotFound" />
+        <item itemvalue="JUnit.SessionControllerIntegrationTest.testFindGetAllSessions_shouldReturnResponseOk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af592f9f-c179-4d9d-8e51-1859465b6cb3" name="Changes" comment="" />
+      <created>1741714683191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741714683191</updated>
+      <workItem from="1741714684409" duration="6731000" />
+      <workItem from="1741729829096" duration="5975000" />
+      <workItem from="1743421841859" duration="14041000" />
+      <workItem from="1744246100010" duration="11323000" />
+      <workItem from="1744804314014" duration="2751000" />
+      <workItem from="1744815284781" duration="3282000" />
+      <workItem from="1744969403492" duration="981000" />
+      <workItem from="1744972473189" duration="2338000" />
+      <workItem from="1744975961801" duration="7614000" />
+      <workItem from="1745333295627" duration="1236000" />
+      <workItem from="1745404035380" duration="2646000" />
+      <workItem from="1745484199380" duration="6077000" />
+      <workItem from="1746118913591" duration="9154000" />
+      <workItem from="1746132650742" duration="14626000" />
+      <workItem from="1746367767421" duration="2366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

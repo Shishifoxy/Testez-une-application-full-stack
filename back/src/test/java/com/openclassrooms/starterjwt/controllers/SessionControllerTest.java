@@ -189,14 +189,14 @@ class SessionControllerTest {
         sessionDto.setName("Spring Boot Session");
         sessionDto.setDate(new Date());
         sessionDto.setDescription("Formation sur Spring Boot");
-        sessionDto.setTeacher_id(1L); // ID du teacher
+        sessionDto.setTeacher_id(1L);
 
         Session updatedSession = new Session();
         updatedSession.setId(1L);
         updatedSession.setName("Spring Boot Session");
         updatedSession.setDate(sessionDto.getDate());
         updatedSession.setDescription("Formation sur Spring Boot");
-        updatedSession.setTeacher(new Teacher().setId(1L)); // ou ce que ton mapper attend
+        updatedSession.setTeacher(new Teacher().setId(1L));
 
         when(sessionService.update(eq(1L), any(Session.class))).thenReturn(updatedSession);
 

@@ -1,72 +1,86 @@
-# Yoga
+# Yoga App - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+Application Angular pour la gestion de sessions de yoga.
 
-## Start the project
+## Installation du projet
 
-Git clone:
+1. Clonez le repository :
+   ```bash
+   git clone https://https://github.com/Shishifoxy/Testez-une-application-full-stack
+   cd yoga-app/front
+   ```
 
-> git clone https://github.com/OpenClassrooms-Student-Center/P5-Full-Stack-testing
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
 
-Go inside folder:
+## Lancer l'application
 
-> cd yoga
+Pour démarrer le serveur de développement :
+```bash
+npm start
+```
 
-Install dependencies:
+L'application sera disponible sur `http://localhost:4200`.
 
-> npm install
+## Lancer les tests
 
-Launch Front-end:
+### Tests unitaires et d’intégration (avec Jest)
 
-> npm run start;
+```bash
+npm test
+```
 
+Pour lancer les tests en mode watch :
+```bash
+npm run test:watch
+```
 
-## Ressources
+### Tests end-to-end (avec Cypress)
 
-### Mockoon env 
+Ouvrir l'interface Cypress :
+```bash
+npm run cypress:open
+```
 
-### Postman collection
+Lancer en mode headless :
+```bash
+npm run cypress:run
+```
 
-For Postman import the collection
+## Génération des rapports de couverture
 
-> ressources/postman/yoga.postman_collection.json 
+Un rapport de couverture Jest peut être généré automatiquement après les tests :
+```bash
+npm test -- --coverage
+```
 
-by following the documentation: 
+Les résultats se trouvent dans le dossier `coverage/`.
 
-https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman
+Pour afficher le rapport dans le navigateur :
+```bash
+npx http-server ./coverage -o
+```
 
+## Objectif de couverture
 
-### MySQL
+- Couverture globale minimum : **80 %**
+- Tests E2E : **30 % des tests**
 
-SQL script for creating the schema is available `ressources/sql/script.sql`
+## 📁 Structure du projet
 
-By default the admin account is:
-- login: yoga@studio.com
-- password: test!1234
+```
+/src
+  ├── app
+  │   ├── components
+  │   ├── services
+  │   ├── pages
+  │   └── ...
+  ├── assets
+  └── environments
+```
 
+---
 
-### Test
-
-#### E2E
-
-Launching e2e test:
-
-> npm run e2e
-
-Generate coverage report (you should launch e2e test before):
-
-> npm run e2e:coverage
-
-Report is available here:
-
-> front/coverage/lcov-report/index.html
-
-#### Unitary test
-
-Launching test:
-
-> npm run test
-
-for following change:
-
-> npm run test:watch
+Ce projet utilise [Jest](https://jestjs.io/) pour les tests unitaires/intégration et [Cypress](https://www.cypress.io/) pour les tests E2E.

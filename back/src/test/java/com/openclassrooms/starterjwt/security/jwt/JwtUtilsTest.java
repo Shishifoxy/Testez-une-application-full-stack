@@ -126,7 +126,6 @@ class JwtUtilsTest {
         assertFalse(isValid);
     }
 
-    // ---------- Méthodes utilitaires ----------
 
     private String generateValidToken(String username) {
         return Jwts.builder()
@@ -155,6 +154,6 @@ class JwtUtilsTest {
                 .setSubject("testuser")
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + 3600000))
-                .compact(); // Pas de signature
+                .compact();
     }
 }

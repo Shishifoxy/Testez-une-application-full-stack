@@ -88,7 +88,6 @@ class UserDetailsServiceImplTest {
         // given
         String username = "nonexistentuser";
 
-        // Configura il comportamento del repository mock quando viene chiamato findByEmail
         when(userRepository.findByEmail(username)).thenReturn(Optional.empty());
 
         // when/then
