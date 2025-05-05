@@ -2,9 +2,10 @@
 
 ## Prérequis
 
-- Java 11 ou plus
-- Maven 3.6+
-- IDE recommandé : IntelliJ IDEA ou VS Code
+* Java 11 ou plus
+* Maven 3.6+
+* IDE recommandé : IntelliJ IDEA ou VS Code
+* MySQL ou MariaDB installé localement
 
 ## Installation
 
@@ -19,6 +20,12 @@
 
    ```bash
    mvn clean install
+   ```
+
+3. Créez une base de données `test` et exécutez le script SQL disponible dans :
+
+   ```
+   src/main/resources/sql/script.sql
    ```
 
 ## Utilisation
@@ -37,8 +44,6 @@ http://localhost:8080
 
 ## Lancement des tests
 
-Lancez les tests avec la commande :
-
 ```bash
 mvn test
 ```
@@ -46,8 +51,6 @@ mvn test
 Tous les tests unitaires et d'intégration seront exécutés automatiquement.
 
 ## Génération du rapport de couverture
-
-Le projet utilise JaCoCo pour la couverture des tests. Pour générer le rapport :
 
 ```bash
 mvn jacoco:prepare-agent test jacoco:report
@@ -61,8 +64,5 @@ Le rapport HTML sera disponible dans :
 
 ## Remarques
 
-- Le dossier `dto` ne contient pas de tests, comme requis.
-- Les autres packages (controllers, services, models) disposent d'une couverture suffisante (>=80%).
-
----
-
+* Le dossier `dto` ne contient pas de tests, comme requis.
+* Les autres packages (controllers, services, models) disposent d'une couverture suffisante (>=80%).

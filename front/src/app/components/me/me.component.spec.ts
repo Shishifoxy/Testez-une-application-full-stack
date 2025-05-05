@@ -46,8 +46,7 @@ describe('MeComponent', () => {
 
     fixture = TestBed.createComponent(MeComponent);
     component = fixture.componentInstance;
-  });MeComponent 0
--
+  });MeComponent
   it('should call getById on init', () => {
     component.ngOnInit();
     expect(userServiceMock.getById).toHaveBeenCalledWith('1');

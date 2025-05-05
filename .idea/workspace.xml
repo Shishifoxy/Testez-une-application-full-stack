@@ -71,6 +71,8 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -83,7 +85,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_directory_selection": "D:/Testez-une-application-full-stack/back/src/test/java",
-    "last_opened_file_path": "D:/Testez-une-application-full-stack/back/src/test/java/com/openclassrooms/starterjwt",
+    "last_opened_file_path": "D:/Testez-une-application-full-stack/back/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -93,9 +95,10 @@
     "nodejs.jest.jest_package": "D:/Testez-une-application-full-stack/front/node_modules/@angular/cli",
     "nodejs_package_manager_path": "yarn",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.scopes",
     "spring.configuration.checksum": "48c7d3105e9b95ef884cba92d9787064",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   },
@@ -112,6 +115,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Testez-une-application-full-stack\back\src\main\resources" />
       <recent name="D:\Testez-une-application-full-stack\back\src\test\java\com\openclassrooms\starterjwt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -240,7 +244,8 @@
     </configuration>
     <configuration name="SpringBootSecurityJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="yoga-app" />
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.openclassrooms.starterjwt.SpringBootSecurityJwtApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,7 +292,8 @@
       <workItem from="1745484199380" duration="6077000" />
       <workItem from="1746118913591" duration="9154000" />
       <workItem from="1746132650742" duration="14626000" />
-      <workItem from="1746367767421" duration="10098000" />
+      <workItem from="1746367767421" duration="19322000" />
+      <workItem from="1746445895322" duration="6761000" />
     </task>
     <servers />
   </component>
