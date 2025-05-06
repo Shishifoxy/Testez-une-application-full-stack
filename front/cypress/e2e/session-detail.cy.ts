@@ -16,6 +16,6 @@ describe("Détail d'une session (vraie auth UI)", () => {
 
     cy.get('h1', { timeout: 10000 }).should('exist');
     cy.contains('Description:').should('exist');
-    cy.get('mat-card-subtitle', { timeout: 10000 }).should('contain.text', 'Mario ROSSI');
+    cy.get('mat-card-subtitle', { timeout: 10000 }).should('contain.text', 'Titi TOTO');
   });
 });
